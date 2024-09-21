@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Trabalho Descomplica</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+    <header class="bg-success text-black text-center py-3">
+        <h1>Meu Trabalho Descomplica</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#1">1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#2">2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#3">3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <div class="row" id="1">
+            <div class="col-md-12">
+                <h2>1</h2>
+                <p>Este é a primeira seção do meu site!</p>
+            </div>
+        </div>
+        <div class="row mt-4" id="2">
+            <div class="col-md-12">
+                <h2>2</h2>
+                <p>Já aqui é a segunda :D</p>
+            </div>
+        </div>
+        <div class="row mt-4" id="3">
+            <div class="col-md-12">
+                <h2>3</h2>
+                <p>Aqui é a última :(</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <footer class="bg-success text-black text-center py-3 mt-4">
+        <p>&copy; <span id="ano"></span> Minha Página Web. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script>
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
